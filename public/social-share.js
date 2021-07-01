@@ -1,4 +1,4 @@
-// Add CSS link to head
+/* Copyright 2021 Akseizer Design Group */
 
 // Get HTML head element
 var head = document.getElementsByTagName('HEAD')[0];
@@ -24,11 +24,8 @@ const twitterBtn = document.querySelector('.twitter-btn');
 const pinterestBtn = document.querySelector('.pinterest-btn');
 
 const init = () => {
-  const pinterestImg = document.querySelector('.pinterest-img');
-
   let postUrl = encodeURI(document.location.href);
-  let postTitle = encodeURI('Hi everyone, please check this out: ');
-  let postImg = encodeURI(pinterestImg.src);
+  let postTitle = encodeURI('Hi everyone, check this out: ');
 
   facebookBtn.setAttribute(
     'href',
