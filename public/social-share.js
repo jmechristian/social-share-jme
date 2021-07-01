@@ -12,7 +12,7 @@ link.rel = 'stylesheet';
 link.type = 'text/css';
 
 link.href =
-  'https://cdn.jsdelivr.net/gh/jmechristian/social-share-jme/public/style.css';
+  'https://cdn.jsdelivr.net/gh/jmechristian/social-share-jme@latest/public/style.css';
 
 // Append link element to HTML head
 head.appendChild(link);
