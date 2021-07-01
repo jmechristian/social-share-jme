@@ -1,3 +1,23 @@
+// Add CSS link to head
+
+// Get HTML head element
+var head = document.getElementsByTagName('HEAD')[0];
+
+// Create new link Element
+var link = document.createElement('link');
+
+// Set the attributes for link element
+link.rel = 'stylesheet';
+
+link.type = 'text/css';
+
+link.href = 'style.css';
+
+// Append link element to HTML head
+head.appendChild(link);
+
+// Social buttons
+
 const facebookBtn = document.querySelector('.facebook-btn');
 const twitterBtn = document.querySelector('.twitter-btn');
 const pinterestBtn = document.querySelector('.pinterest-btn');
