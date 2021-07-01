@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GTCoding</title>
     <!-- <link rel="stylesheet" href="/public/style.css" /> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="63123f61190ce5292be06ce4fa5eaaba">
   </head>
   <body>
     <div class="share-btn-container">
@@ -38,7 +38,7 @@
         similique, pariatur, quod ratione consequuntur quo iusto ipsa quae hic.S
       </p>
 
-      <img class="pinterest-img" src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="">
+      <img class="pinterest-img" src="ea6e8fa6bac56a050d2865bff39a7f44" alt="">
     </div>
     <div class="share-buttons">
       <div class="button-container">
@@ -57,12 +57,12 @@
         </a>
       </div>
       <div class="button-container">
-        <a href="https://www.instagram.com/ghosttequila">
+        <a href="b316b103c7d3552ab03ae3aed28a5be2">
           <i class="fab fa-instagram"></i>
         </a>
       </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/gh/jmechristian/social-share-jme/public/social-share.js"></script>
+    <script src="f7c8bbba77e04e5040fa22d2914be46c"></script>
   </body>
 </html>
