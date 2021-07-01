@@ -21,13 +21,16 @@
 
 .share-buttons > div {
   background-color: #000;
-  margin-right: 8px;
+  padding: 32px;
+  margin-right: 12px;
   border-radius: 50%;
   color: white;
-  width: 3rem;
-  height: 3rem;
-  text-align: center;
-  display: flex;
+  width: 2.6em;
+  height: 2.6em;
+}
+
+.share-buttons .button-container > a {
+  color: white;
 }
 
 .share-buttons a i {
@@ -35,13 +38,8 @@
 }
 
 .share-buttons a {
-  color: white;
+  margin: 12px 0;
   transition: 500ms;
-  display: flex;
-  flex: 1;
-  text-decoration: none;
-  justify-content: center;
-  align-items: center;
 }
 
 .share-buttons a:hover {

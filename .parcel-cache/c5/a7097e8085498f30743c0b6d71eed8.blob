@@ -15,37 +15,48 @@
 
 /* Share Buttons */
 
-.share-buttons {
+.share-btn-container {
+  background: #fff;
   display: flex;
+  flex-direction: column;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.share-buttons > div {
-  background-color: #000;
-  margin-right: 8px;
-  border-radius: 50%;
-  color: white;
-  width: 3rem;
-  height: 3rem;
-  text-align: center;
-  display: flex;
+.share-btn-container a i {
+  font-size: 32px;
 }
 
-.share-buttons a i {
-  font-size: 24px;
-}
-
-.share-buttons a {
-  color: white;
+.share-btn-container a {
+  margin: 12px 0;
   transition: 500ms;
-  display: flex;
-  flex: 1;
-  text-decoration: none;
-  justify-content: center;
-  align-items: center;
 }
 
-.share-buttons a:hover {
+.share-btn-container a:hover {
   transform: scale(1.2);
+}
+
+.share-btn-container .fa-facebook {
+  color: #3b5998;
+}
+
+.share-btn-container .fa-twitter {
+  color: #1da1f2;
+}
+
+.share-btn-container .fa-linkedin {
+  color: #0077b5;
+}
+
+.share-btn-container .fa-pinterest {
+  color: #bd081c;
+}
+
+.share-btn-container .fa-whatsapp {
+  color: #25d366;
 }
 
 /* Media Queries */

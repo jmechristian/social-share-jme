@@ -21,7 +21,7 @@
 
 .share-buttons > div {
   background-color: #000;
-  margin-right: 8px;
+  margin-right: 12px;
   border-radius: 50%;
   color: white;
   width: 3rem;
@@ -36,12 +36,9 @@
 
 .share-buttons a {
   color: white;
+  margin: 12px 0;
   transition: 500ms;
-  display: flex;
-  flex: 1;
-  text-decoration: none;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
 }
 
 .share-buttons a:hover {

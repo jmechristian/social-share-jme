@@ -1,0 +1,19 @@
+{
+  "name": "social-share",
+  "version": "1.0.0",
+  "description": "",
+  "main": "social-share.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmechristian/social-share-jme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmechristian/social-share-jme/issues"
+  },
+  "homepage": "https://github.com/jmechristian/social-share-jme#readme"
+}
