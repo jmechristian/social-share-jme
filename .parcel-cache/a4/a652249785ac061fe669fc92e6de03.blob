@@ -464,12 +464,13 @@ head.appendChild(link);
 // Social buttons
 
 //Load into Container
+
+const socialContainer = document.querySelector('.share-buttons');
+
 const loadButtons = () => {
-  document.querySelector('.share-buttons').innerHTML =
+  document.getElementsByClassName('.share-buttons').innerHTML =
     '<div class="button-container"><a href="#" class="facebook-btn" target="_blank"><i class="fab fa-facebook-f"></i></a></div><div class="button-container"><a href="#" class="twitter-btn" target="_blank"><i class="fab fa-twitter"></i></a></div><div class="button-container"><a href="https://www.instagram.com/ghosttequila"><i class="fab fa-instagram"></i></a></div>';
 };
-
-loadButtons();
 
 const facebookBtn = document.querySelector('.facebook-btn');
 const twitterBtn = document.querySelector('.twitter-btn');
@@ -490,8 +491,9 @@ const init = () => {
   );
 };
 
+loadButtons();
 init();
 
 },{}]},["4tAHg","4PU4d"], "4PU4d", "parcelRequireed58")
 
-//# sourceMappingURL=index.9dedcd22.js.map
+//# sourceMappingURL=index.HASH_REF_897afd714c4f11bc4462ce529dedcd22.js.map
