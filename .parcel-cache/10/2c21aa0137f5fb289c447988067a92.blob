@@ -35,14 +35,13 @@ const init = () => {
     'href',
     `https://twitter.com/share?url=${postUrl}&text=${postTitle}`
   );
+
+  const setPinterest = () => {
+    let script = document.createElement('script'); // create a script DOM node
+    script.src = 'https://assets.pinterest.com/js/pinit.js'; // set its src to the provided URL
+
+    document.body.appendChild(script);
+  };
 };
 
-const setPinterest = () => {
-  let script = document.createElement('script'); // create a script DOM node
-  script.src = 'https://assets.pinterest.com/js/pinit.js'; // set its src to the provided URL
-
-  document.body.appendChild(script);
-};
-
-setPinterest();
 init();

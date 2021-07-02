@@ -44,5 +44,5 @@ const setPinterest = () => {
   document.body.appendChild(script);
 };
 
-setPinterest();
 init();
+setPinterest();

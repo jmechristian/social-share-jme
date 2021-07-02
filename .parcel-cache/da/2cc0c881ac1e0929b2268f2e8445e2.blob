@@ -1,22 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GTCoding</title>
     <!-- <link rel="stylesheet" href="/public/style.css" /> -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
   </head>
   <body>
-    <h1>This is a headline!</h1>
-    <div>
-      <div class="image1"><img src='https://images.freeimages.com/images/large-previews/ffa/water-lilly-1368676.jpg'></div>
-    </div>
-
-
     <div class="share-buttons">
       <div class="button-container">
         <a href="#" class="facebook-btn">
@@ -29,9 +20,8 @@
         </a>
       </div>
       <div class="button-container">
-        <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" data-pin-custom="true">
+        <a href="#" class="pinterest-btn">
           <i class="fab fa-pinterest-p"></i>
-          </a>
         </a>
       </div>
       <div class="button-container">
@@ -41,6 +31,6 @@
       </div>
     </div>
 
-    <script src="/public/social-share.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/jmechristian/social-share-jme@1.0/public/social-share.js"></script>
   </body>
 </html>

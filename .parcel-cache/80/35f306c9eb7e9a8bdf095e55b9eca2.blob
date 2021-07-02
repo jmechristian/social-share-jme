@@ -488,9 +488,9 @@ const setPinterest = () => {
   document.body.appendChild(script);
 };
 
-setPinterest();
 init();
+setPinterest();
 
 },{}]},["4tAHg","4PU4d"], "4PU4d", "parcelRequireed58")
 
-//# sourceMappingURL=index.9dedcd22.js.map
+//# sourceMappingURL=index.HASH_REF_897afd714c4f11bc4462ce529dedcd22.js.map

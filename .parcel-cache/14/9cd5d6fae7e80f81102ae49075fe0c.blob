@@ -479,18 +479,17 @@ const init = () => {
     'href',
     `https://twitter.com/share?url=${postUrl}&text=${postTitle}`
   );
+
+  const setPinterest = () => {
+    let script = document.createElement('script'); // create a script DOM node
+    script.src = 'https://assets.pinterest.com/js/pinit.js'; // set its src to the provided URL
+
+    document.body.appendChild(script);
+  };
 };
 
-const setPinterest = () => {
-  let script = document.createElement('script'); // create a script DOM node
-  script.src = 'https://assets.pinterest.com/js/pinit.js'; // set its src to the provided URL
-
-  document.body.appendChild(script);
-};
-
-setPinterest();
 init();
 
 },{}]},["4tAHg","4PU4d"], "4PU4d", "parcelRequireed58")
 
-//# sourceMappingURL=index.9dedcd22.js.map
+//# sourceMappingURL=index.HASH_REF_897afd714c4f11bc4462ce529dedcd22.js.map
