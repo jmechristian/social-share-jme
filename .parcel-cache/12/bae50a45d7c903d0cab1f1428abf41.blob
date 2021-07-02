@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GTCoding</title>
     <!-- <link rel="stylesheet" href="/public/style.css" /> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="63123f61190ce5292be06ce4fa5eaaba">
   </head>
   <body>
     <div class="share-buttons">
@@ -25,12 +25,12 @@
         </a>
       </div>
       <div class="button-container">
-        <a href="https://www.instagram.com/ghosttequila">
+        <a href="b316b103c7d3552ab03ae3aed28a5be2">
           <i class="fab fa-instagram"></i>
         </a>
       </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/gh/jmechristian/social-share-jme@latest/public/social-share.js"></script>
+    <script src="9f948a8e61115a897f424d032997343b"></script>
   </body>
 </html>

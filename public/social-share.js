@@ -39,7 +39,7 @@ const init = () => {
 
   pinterestBtn.setAttribute(
     'href',
-    `https://pinterest.com/pin/create/bookmarklet/?media=${postImg}&url=${postUrl}&description=${postTitle}`
+    `https://pinterest.com/pin/create/bookmarklet/?url=${postUrl}&description=${postTitle}`
   );
 };
 
