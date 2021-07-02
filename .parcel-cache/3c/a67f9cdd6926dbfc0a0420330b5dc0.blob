@@ -1,4 +1,46 @@
-// modules are defined as an array
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTCoding</title>
+    <!-- <link rel="stylesheet" href="/public/style.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  </head>
+  <body>
+    <h1>This is a headline!</h1>
+    <div>
+      <div class="image1"><img src="https://images.freeimages.com/images/large-previews/ffa/water-lilly-1368676.jpg"></div>
+    </div>
+
+
+    <div class="share-buttons">
+      <div class="button-container">
+        <a href="#" class="facebook-btn">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </div>
+      <div class="button-container">
+        <a href="#" class="twitter-btn">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+      <div class="button-container">
+        <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" data-pin-custom="true">
+          <i class="fab fa-pinterest-p"></i>
+          </a>
+        
+      </div>
+      <div class="button-container">
+        <a href="https://www.instagram.com/ghosttequila">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="/index.HASH_REF_897afd714c4f11bc4462ce529dedcd22.js"></script>
+
+    <script>// modules are defined as an array
 // [ module function, map of requires ]
 //
 // map of requires is short require name -> numeric require
@@ -140,12 +182,12 @@
       this[globalName] = mainExports;
     }
   }
-})({"4tAHg":[function(require,module,exports) {
+})({"UYn5Y":[function(require,module,exports) {
 var HMR_HOST = null;
 var HMR_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
-module.bundle.HMR_BUNDLE_ID = "897afd714c4f11bc4462ce529dedcd22";
+module.bundle.HMR_BUNDLE_ID = "b4ee759de1d6665a64bb99263ff9f4a8";
 // @flow
 /*global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE*/
 /*::
@@ -441,57 +483,16 @@ id) /*: string*/
   acceptedAssets[id] = true;
 }
 
-},{}],"4PU4d":[function(require,module,exports) {
-/* Copyright 2021 Akseizer Design Group */
+},{}],"5CKcN":[function(require,module,exports) {
+(function(d){
+          var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+          p.type = 'text/javascript';
+          p.async = true;
+          p.src = '//assets.pinterest.com/js/pinit.js';
+          f.parentNode.insertBefore(p, f);
+      }(document));
+},{}]},["UYn5Y","5CKcN"], "5CKcN", "parcelRequireed58")
 
-// Get HTML head element
-var head = document.getElementsByTagName('HEAD')[0];
-
-// Create new link Element
-var link = document.createElement('link');
-
-// Set the attributes for link element
-link.rel = 'stylesheet';
-
-link.type = 'text/css';
-
-link.href =
-  'https://cdn.jsdelivr.net/gh/jmechristian/social-share-jme/public/style.css';
-
-// Append link element to HTML head
-head.appendChild(link);
-
-// Social buttons
-
-const facebookBtn = document.querySelector('.facebook-btn');
-const twitterBtn = document.querySelector('.twitter-btn');
-const pinterestBtn = document.querySelector('.pinterest-btn');
-
-const init = () => {
-  const pinterestImg = document.querySelector('.sqs-image');
-
-  let postUrl = encodeURI(document.location.href);
-  let postTitle = encodeURI('Perfectly Spicy Ghost Tequila');
-  let postImg = encodeURI(pinterestImg.src);
-
-  facebookBtn.setAttribute(
-    'href',
-    `https://www.facebook.com/sharer.php?u=${postUrl}`
-  );
-
-  twitterBtn.setAttribute(
-    'href',
-    `https://twitter.com/share?url=${postUrl}&text=${postTitle}`
-  );
-
-  pinterestBtn.setAttribute(
-    'href',
-    `https://pinterest.com/pin/create/bookmarklet/?media=${postImg}&url=${postUrl}&description=${postTitle}`
-  );
-};
-
-init();
-
-},{}]},["4tAHg","4PU4d"], "4PU4d", "parcelRequireed58")
-
-//# sourceMappingURL=index.9dedcd22.js.map
+</script>
+  </body>
+</html>

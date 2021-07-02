@@ -21,14 +21,10 @@ head.appendChild(link);
 
 const facebookBtn = document.querySelector('.facebook-btn');
 const twitterBtn = document.querySelector('.twitter-btn');
-const pinterestBtn = document.querySelector('.pinterest-btn');
 
 const init = () => {
-  const pinterestImg = document.querySelector('.sqs-image');
-
   let postUrl = encodeURI(document.location.href);
   let postTitle = encodeURI('Perfectly Spicy Ghost Tequila');
-  let postImg = encodeURI(pinterestImg.src);
 
   facebookBtn.setAttribute(
     'href',
@@ -39,11 +35,14 @@ const init = () => {
     'href',
     `https://twitter.com/share?url=${postUrl}&text=${postTitle}`
   );
-
-  pinterestBtn.setAttribute(
-    'href',
-    `https://pinterest.com/pin/create/bookmarklet/?media=${postImg}&url=${postUrl}&description=${postTitle}`
-  );
 };
 
+const setPinterest = () => {
+  let script = document.createElement('script'); // create a script DOM node
+  script.src = 'https://assets.pinterest.com/js/pinit.js'; // set its src to the provided URL
+
+  document.body.appendChild(script);
+};
+
+setPinterest();
 init();

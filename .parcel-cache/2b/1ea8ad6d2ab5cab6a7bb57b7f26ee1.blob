@@ -468,7 +468,7 @@ const twitterBtn = document.querySelector('.twitter-btn');
 const pinterestBtn = document.querySelector('.pinterest-btn');
 
 const init = () => {
-  const pinterestImg = document.querySelector('.sqs-image');
+  const pinterestImg = document.querySelector('.sqs-image')[0];
 
   let postUrl = encodeURI(document.location.href);
   let postTitle = encodeURI('Perfectly Spicy Ghost Tequila');
@@ -494,4 +494,4 @@ init();
 
 },{}]},["4tAHg","4PU4d"], "4PU4d", "parcelRequireed58")
 
-//# sourceMappingURL=index.9dedcd22.js.map
+//# sourceMappingURL=index.HASH_REF_897afd714c4f11bc4462ce529dedcd22.js.map
